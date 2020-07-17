@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* 要素の幅と高さの中にpaddingとborderを含めるかどうか定義 */
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.box {
+  height: 300px;
+  width: 600px;
+  margin: 0 auto 50px;
+  background-image: url(../img/image.jpg);
+  background-size: cover;
+}
+
+#back {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  /* トップへ行くボタンの位置を定義 */
+}
+
+#back img {
+  width: 50px;
+}
